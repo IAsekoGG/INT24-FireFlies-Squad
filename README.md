@@ -1,21 +1,31 @@
 # INT24 FireFlies Squad
-Дякуємо, що завітали до нашого коду)
-## Instalation
+Дякуємо, що завітали до нашого репозиторію. В якості моделі ми обрали Mask_RCNN, яку адаптували під наш набір даних, дотренували та застосували рішення передобробки зображень, яке описано в коді ^^
+## Інсталяція
 Спочатку треба встановити необхідні версії бібліотек з requirements.txt. 
 ```
 pip install -r requirements.txt
 ```
-Цього буде достатньо, щоб запустити interference.ipynb та train.ipynb.
-## How to use
-No you can start MapFinder by running start.sh:
-```commandline
-bash start.sh
-```
-Then you will have to select initialization type. By checkpoint of map that already created, all such checkpoints saved in checkpoint folder in root dir of the app, or by creation of new map, checkpoint of it could be saved then.
+Цього буде достатньо, щоб запустити interference.ipynb та train.ipynb на вашій машині, все інше має встановитися автоматично.
 
-After that, when you load a map, you can choose one of three options:
-> Find by drone image - it require image from drone, approximate position of drone and radius of error and predict sector of drone allocation. 
+Якщо не встановляться requirements, то про всяк випадок є лінк на кагл, головне там запускати в нашому оточенні:
 
-> Find all in circle - it require approximate position of drone and radius of error and give all sectors in area.
+https://www.kaggle.com/kayuchks/mask-rcnn-and-coco-final-version
 
-> Test hardware - it require power of test and give time that was required to pass it
+https://www.kaggle.com/kayuchks/interference/edit
+## Як використовувати
+train.ipynb:
+
+Треба в першій комірці вказати шляхи до набору даних та папки, в яку буде зберігатися кеш, і можна 4 години насолоджуватися тренуванням.
+
+interference.ipynb:
+
+Треба вказати шляхи папки, в яку буде зберігатися кеш. Потім треба запустити другу комірку для встановлення моделі та її конфігурації, це треба зробити один раз, потім її можна закоментувати.
+
+## Джерела:
+https://www.github.com/matterport/Mask_RCNN
+
+https://www.github.com/i-pan/kaggle-rsna18
+
+https://www.kaggle.com/code/pneumonia-classification-fine-tuning-resnet-83-3
+
+https://www.kaggle.com/code/rsna-pneumonia-detection-cnn-capstone-9
