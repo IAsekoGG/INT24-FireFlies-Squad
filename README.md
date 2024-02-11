@@ -11,10 +11,10 @@ pip install -r requirements.txt
 kaggle.com/kayuchks/mask-rcnn-and-coco-final-version
 kaggle.com/kayuchks/interference/edit
 ## Як використовувати
-###train.ipynb
+train.ipynb:
 
 Треба в першій комірці вказати всі шляхи і можна насолоджуватися роботою.
 
-###interference.ipynb
+interference.ipynb:
 
 Треба вказати шляхи та встановити модель та конфігурацію. Це треба зробити один раз, потім цей блок можна закоментувати.
