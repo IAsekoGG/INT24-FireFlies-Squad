@@ -9,9 +9,9 @@ pip install -r requirements.txt
 
 Якщо не встановляться requirements, то про всяк випадок є лінк на кагл, головне там запускати в нашому оточенні:
 
-https://wwwkaggle.com/kayuchks/mask-rcnn-and-coco-final-version
+https://www.kaggle.com/kayuchks/mask-rcnn-and-coco-final-version
 
-https://wwwkaggle.com/kayuchks/interference/edit
+https://www.kaggle.com/kayuchks/interference/edit
 ## Як використовувати
 train.ipynb:
 
