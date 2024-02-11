@@ -20,3 +20,12 @@ train.ipynb:
 interference.ipynb:
 
 Треба вказати шляхи та встановити модель та конфігурацію. Це треба зробити один раз, потім цей блок можна закоментувати.
+
+## Джерела:
+github.com/matterport/Mask_RCNN
+
+github.com/i-pan/kaggle-rsna18
+
+kaggle.com/code/pneumonia-classification-fine-tuning-resnet-83-3
+
+kaggle.com/code/rsna-pneumonia-detection-cnn-capstone-9
